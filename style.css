@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+  width: 1140px; 
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right: 13px;
+}
+.logo{
+    display: flex;
+    color: #222222;
+    font-family: Lato;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+      align-items: center;
+    margin-right: 37px;
+
+}
+.logo span{
+    color: #f16d7f;
+    font-weight: 400;
+    
+}
+
+    
+.header__search{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px 3px;
+    border:  1px solid #e6e6e6;
+    overflow: hidden;
+}
+
+.browse{
+background-color: #cdcdcc;
+color: #222222;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+    padding: 14px 9px 14px 15px; 
+ 
+}
+.header__search input{
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    padding: 14px 159px 14px 16px;
+    color: #a4a4a4;
+  
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+.header__search button{
+color: #a4a4a4;
+font-family: "Font Awesome";
+font-size: 14px;
+font-weight: 400;
+background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 12px 11px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__cart{
+   margin-right: 26px; 
+}
+.header__account{
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 13px 12px 13px 19px;
+    text-decoration: none;
+}
+.header__line{
+    border-bottom: 1px solid #ececec;  
+}
+.topNav{
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topNav__link{
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 47px;
+}
+.topNav__link:hover{
+    color: #cdcdcc;
+}
+.slider{
+    background-color: #e8e8e8;
+   
+}
+.slider__content{
+    display: flex;
+    align-items: center;
+   height: inherit;
+    background: url(img/slider-bg.png) no-repeat; 
+    background-position: right -1%;
+    background-size: 50%;
+}
+.slider__right{
+   display: flex;
+    padding-top: 224px;
+    padding-bottom: 297px;
+   
+}
+.slider__line{
+    border-left: 12px solid #f16d7f;
+    height: 92px;
+    padding-right: 12px;
+}
+.slider__text{
+    text-transform: uppercase;
+    color: #222222; 
+    font-weight: 400;
+}
+.slider__text h2{
+    font-size: 60px;
+    margin: 0;
+    line-height: 0.7;
+    margin-bottom: 12px;
+}
+.slider__text h3{
+   font-size: 40px;
+    margin: 0;
+}
+.slider__text h3 span{
+    color: #f16d7f;
+}
+.news{
+    margin-top: 98px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.news__img{
+    height: 261px;
+    width: 560px;
+    position: relative;
+}
+.news__img:nth-child(3n+1){
+    height: 542px;
+    width: 560px;
+}
+.news__img:nth-child(1){
+    background-image: url(img/offer-man.jpg);
+}
+.news__img:nth-child(2){
+    background-image: url(img/offer-accessorise.jpg);
+}
+.news__img:nth-child(3){
+    background-image: url(img/offer-wonan.jpg);
+}
+.news__img:nth-child(4){
+    background-image: url(img/offer-kids.jpg);
+}
+.news__img h3{
+    padding: 16px 19px 16px 19px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.news__img h3  a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 18px;
+    
+}
+.news__img a span{
+   color: #f16d7f;
+    font-size: 30px;
+    display: block;
+}
