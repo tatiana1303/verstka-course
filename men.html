@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+     <header class="header container">
+      <div class="header__left">
+          <a href="index.html" class="logo"><img src="img/logo.png" alt="logo">bran<span>d</span></a>
+          <form method="get" class="header__search">
+              <div class="browse">Browse <i class="fas fa-caret-down"></i></div>
+              <input name="search" type="text" placeholder="Search for item">
+              <button class="search"><i class="fas fa-search"></i></button>
+          </form>
+      </div>
+          <div class="header__right">
+              <a href="#" class="header__cart"><img src="img/cart.svg" alt=""></a>
+              <a href="#" class="header__account">My Account <i class="fas fa-caret-down"></i></a>
+          </div> 
+  </header> 
+    <div class="header__line"></div>
+    <nav class="topNav container">
+        <a href="index.html" class="topNav__link">Home</a>               
+        <a href="#" class="topNav__link">Man</a>                 
+        <a href="#" class="topNav__link">Women </a>                
+        <a href="#" class="topNav__link">Kids</a>                
+        <a href="#" class="topNav__link">Accoseriese</a>                 
+        <a href="#" class="topNav__link">Featured</a>               
+        <a href="#" class="topNav__link">Hot Deals</a>
+    </nav>
+    <div class="breadcrumb">
+  <div class="breadcrumb__content container">
+      <h1 class="breadcrumb__title">New arrivals</h1>
+         <div class="breadcrumb__item">
+          <a href="#" class="breadcrumb__link">Home/</a>
+          <a href="#" class="breadcrumb__link">Men/</a>
+          <a href="#" class="breadcrumb__link">New arrivals</a>
+          </div>
+  </div>
+</div>
+<div class="product__wrapper container">
+<div class="sidebar__wrapper">
+    <div class="sidebar">
+        <h1 class="sidebar__title sidebar__active">Category <span class="sidebar__row"><i class="fas fa-caret-up"></i></span></h1>
+        <div class="sidebar__content">
+            <a href="#" class="sidebar__link">Accessories</a>
+            <a href="#" class="sidebar__link">Bags</a>
+            <a href="#" class="sidebar__link">Denim</a>
+            <a href="#" class="sidebar__link">Hoodies &amp; Sweatshirts</a>
+            <a href="#" class="sidebar__link">Jackets &amp; Coats</a>
+            <a href="#" class="sidebar__link">Pants</a>
+            <a href="#" class="sidebar__link">Polos</a>
+            <a href="#" class="sidebar__link">Shirts</a>
+            <a href="#" class="sidebar__link">Shoes</a>
+            <a href="#" class="sidebar__link">Shorts</a>
+            <a href="#" class="sidebar__link">Sweaters &amp; Knits</a>
+            <a href="#" class="sidebar__link">T-Shirts</a>
+            <a href="#" class="sidebar__link">Tanks</a>
+        </div>
+    </div>
+    <div class="sidebar">
+    <h1 class="sidebar__title">Brand <span class="sidebar__row"><i class="fas fa-caret-down"></i></span></h1>
+       </div>
+       <div class="sidebar">
+        <h1 class="sidebar__title">Designer <span class="sidebar__row"><i class="fas fa-caret-down"></i></span></h1>
+        </div>
+    </div>
+    <div class="product__form">
+        <div class="product__filter">
+            <div class="trending">
+                <p class="filter__title">Trending now</p>
+                <div class="trending-items-wraper">
+                    <button class="trending-item">Bohemian</button>
+                    <button class="trending-item">Floral</button>
+                    <button class="trending-item">Lace</button>
+                    <button class="trending-item">Floral</button>
+                    <button class="trending-item">Lace</button>
+                    <button class="trending-item">Bohemian</button>
+                </div>
+            </div>
+            <div class="size">
+                <p class="filter__title">Size</p>
+                <div class="size-items-wrapper">
+                    <div class="size-vertical-wrapper">
+                        <label class="size-item">
+                            <input type="checkbox">
+                            XXS
+                        </label>
+                         <label class="size-item">
+                            <input type="checkbox">
+                            L
+                        </label>
+                    </div>
+                     <div class="size-vertical-wrapper">
+                        <label class="size-item">
+                            <input type="checkbox">
+                            XS
+                        </label>
+                         <label class="size-item">
+                            <input type="checkbox">
+                            XL
+                        </label>
+                    </div>
+                     <div class="size-vertical-wrapper">
+                        <label class="size-item">
+                            <input type="checkbox">
+                            S
+                        </label>
+                         <label class="size-item">
+                            <input type="checkbox">
+                            XXL
+                        </label>
+                    </div>
+                     <div class="size-vertical-wrapper">
+                        <label class="size-item">
+                            <input type="checkbox">
+                            M
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <p class="filter__title">
+                    Price
+                </p>
+                <div class="range">
+                    <div class="range__line">
+                        <div class="range__color-line"></div>
+                        <p class="range__price-value">$52 <span calss="price-value__end">$400</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-select">
+           <form action="get" class="product-select__value">
+           <input type="submit" value="Sort by" class="product-select__button">
+            <select name="" id="" class="product-select__button">
+                <option>Name</option>
+            </select>
+            </form>
+            <form action="get" class="product-select__value">
+           <input type="submit" value="Show" class="product-select__button">
+            <select name="" id="" class="product-select__button">
+                <option>09</option>
+            </select>
+            </form>
+        </div>
+        <div class="product__block">
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod1.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+      <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod2.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+        <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod3.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod4.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod5.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod6.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod7.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod8.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+    <figure class="product__content">
+        <div class="product__img-block"><img src="img/men-prod9.jpg" alt="product" class="product__img">
+        <div class="product__img__hover">
+            <button class="product__hover-button"><img src="img/product-cart.svg" alt="" class="product__hover-button__img"> Add to Cart</button>
+            <div class="product__hover__more">
+            <button class="product__hover-button__more"><img src="img/button-update.svg" alt=""  class="hover-button__more__img"></button>
+            <button class="product__hover-button__more"><img src="img/button-favor.svg" alt="" class="hover-button__more__img"></button>
+            </div>
+        </div>
+        </div>
+         <figcaption class="product__label"><a href="#" class="product__name">Mango people t-shirt<span class="product__price">$52.00</span></a> </figcaption>
+     </figure>
+     </div>
+        <div class="product__nav-bottom">
+            <div class="product__pagination">
+                <a href="#" class="product__pagination__link">1</a>
+                <a href="#" class="product__pagination__link">2</a>
+                <a href="#" class="product__pagination__link">3</a>
+                <a href="#" class="product__pagination__link">4</a>
+                <a href="#" class="product__pagination__link">5</a>
+                <a href="#" class="product__pagination__link">6</a>
+                <a href="#" class="product__pagination__link">.....</a>
+                <a href="#" class="product__pagination__link">20</a>
+            </div>
+            <a href="#" class="product__nav-bottom__button">View All</a>
+        </div>      
+
+ 
+        
+    </div>
+
+</div>
+</body>
+</html>
